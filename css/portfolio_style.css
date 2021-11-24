@@ -1,0 +1,99 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+body {
+	font-family: 'Roboto', sans-serif;
+	color: #E4E4E4;
+	background: #414141;
+}
+a {
+	animation-timing-function: 0.6s;
+}
+header {
+	background: #2A2A2A;
+	position: sticky;
+	top: 0;
+}
+.header {
+	padding-top: 40px;
+	padding-bottom: 40px;
+	max-width: 1180px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 0 auto;
+}
+.types {
+	max-width: 1180px;
+}
+.about-me {
+	max-width: 1180px;
+}
+.portfolio-input {
+	max-width: 1180px;
+}
+.contact-section {
+	max-width: 1180px;
+}
+header a {
+	text-decoration: none;
+	font-size: 18px;
+	font-weight: 400;
+	color: #E4E4E4;
+}
+header a:hover {
+	border-bottom: 1px solid #E2A300;
+	padding-bottom: 5px;
+}
+li {
+	list-style-type: none;
+	display: inline;
+	margin-left: 145px;
+	align-items: center;
+}
+.logo p {
+	margin-left: 0px;
+	color: #FFFFFF;
+	font-size: 20px;
+	font-weight: 700;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+footer {
+	background: #414141;
+}
+.footer-nav {
+	display: grid;
+}
+.contact-nav {
+	display: grid;
+}
+footer a {
+	color: #E4E4E4;
+	text-decoration: none;
+	font-size: 18px;
+	line-height: 36px;
+}
+footer p {
+	font-size: 18px;
+	line-height: 36px;
+}
+.footers {
+	display: flex;
+	max-width: 1180px;
+	justify-content: space-between;
+	align-items: center;
+	margin: 0 auto;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.contact-variant {
+	display: flex;
+}
+.footer-logo p {
+	color: #FFFFFF;
+	font-size: 20px;
+	font-weight: 700;
+    font-family: 'Nunito Sans', sans-serif;
+}
